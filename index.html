@@ -1,60 +1,55 @@
-<html>
-    <link rel="stylesheet" href="estilos.css">
-    <body>
-        
-        
-        
 
-           
-    </body>
+ <!doctype html>
+ <html lang="en">
+   <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Bootstrap demo</title>
+   </head>
+   <body>
+   </body>
+
+    <link rel="stylesheet" href="estilos.css">
+ 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <head>
         
        <h1> BIOGRAFIA DE HARRY KANE </h1>
        <br></br>
-       <p>
+       <div class="container-sm">
+
+
+     
+       <p class="text-center">
         Harry Edward Kane nació el 28 de julio de 1993 en Walthamstow, Londres, Inglaterra. Es un futbolista profesional inglés que juega como delantero y actualmente milita en el FC Bayern Múnich de Alemania, además de ser el capitán de la selección nacional de Inglaterra.
     </p>
 
-    <p>
+    <p class="text-center">
         Kane se formó en las categorías juveniles del Tottenham Hotspur, donde debutó profesionalmente y se convirtió en uno de los máximos goleadores históricos del club. Reconocido por su capacidad goleadora, inteligencia táctica y habilidades como asistente, fue varias veces Bota de Oro de la Premier League.
     </p>
 
-    <p>
+    <p class="text-center">
         En 2023, Kane fue transferido al Bayern Múnich en una de las operaciones más importantes del fútbol europeo. Su llegada al club alemán marcó el inicio de una nueva etapa para el delantero inglés, que rápidamente comenzó a destacar con goles y asistencias.
     </p>
 
-    <p>
+    <p class="text-center">
         Con la selección inglesa, ha sido pieza clave en torneos internacionales como el Mundial de 2018, donde fue el máximo goleador del torneo (Bota de Oro), y la Eurocopa 2020, donde Inglaterra llegó a la final. Es el máximo goleador histórico de la selección nacional.
     </p>
 
-    <p>
+    <p class="text-center">
         Fuera del campo, Harry Kane es admirado por su humildad, profesionalismo y compromiso con el deporte. Es una figura ejemplar en el fútbol inglés moderno.
     </p>
-
-         <img src="kane.webp" alt="foto">
+  </div>
+    <div class="text-center">
+        <img src="kane.webp" class="rounded" alt="606">
+      </div>
+        
          <link rel="stylesheet" type="text/css" href="css/estilos.css">
        
        
     </head>
-    
-    <ol><h2>EQUIPOS EN QUE ESTUVO</h2>
-        <li>Tottenham Hotspur</li>
-        <li>Leicester City</li>
-        <li>Millwall</li>
-        <li>Norwich City</li>
-        <li>FC Bayern Múnich</li>
-        <li>Selección de Inglaterra</li>
-    </ol>
-    <ul>
-        <li>FC Bayern Múnich, equipo actual</li>
-    </ul>
-
-    
-
-    <br></br>
-
-    <table>
+    <table class="table table-dark table-hover">
         <tr>
             <th>EQUIPO</th>
             <th>GOLES</th>
@@ -73,10 +68,28 @@
         <tr>
             <td>Selección de Inglaterra</td>
             <td>141 </td>
-            <td>223  </td>
+            <td>223 </td>
         </tr>
+ 
 
-    </table>
+    <div class="list-group">
+        <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+            EQUIPOS EN QUE ESTUVO
+        </button>
+        <button type="button" class="list-group-item list-group-item-action">Tottenham Hotsp</button>
+        <button type="button" class="list-group-item list-group-item-action">Leicester City</button>
+        <button type="button" class="list-group-item list-group-item-action">Millwall</button>
+        <button type="button" class="list-group-item list-group-item-action" >Norwich City</button>
+        <button type="button" class="list-group-item list-group-item-action" >FC Bayern Múnich</button>
+        <button type="button" class="list-group-item list-group-item-action" >Selección de Inglaterra</button>
+      </div>
+
+    
+
+    <br></br>
+   
+
+   
 
   <br></br>
 
@@ -84,22 +97,18 @@
     <source src="aiseo-video-2025-10-01_21-57-42.mp4" type="video/mp4">
     
 </video>
-
-  <form action="/form-handler-php">
-comentario:<br>
-<input type="text" name="firstname"><br>
-<input type="submit" value="enviar">
-
+<form class="row g-3">
+    <div class="col-auto">
+      <label for="staticEmail2" class="visually-hidden">email</label>
+      <input type="text" readonly  id="staticEmail2" value="luisborquez@gmail.com">
+    </div>
+    <div class="col-auto">
+      <label for="inputPassword2" class="visually-hidden">comentario</label>
+      <input  class="form-control" id="inputPassword2" placeholder="comentario">
+    </div>
+    <div class="col-auto">
+      <button type="submit" class="btn btn-primary mb-3">enviar</button>
+    </div>
   </form>
-
-</html>
-<style>
-    table, th, td {
-        border: 1px solid black;
-        border-collapse: collapse;
-    }
-    th, td{
-        padding: 10px;
-    }
-   </style>
-<a href="https://www.instagram.com/cristiano/">REDES SOCIALES</a>
+  <a href="https://www.instagram.com/harrykane/" style="cursor: ne-resize;">REDES SOCIALES</a>
+  </html>
